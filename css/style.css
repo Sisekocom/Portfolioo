@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://www.bing.com/th/id/OGC.7ad0c9b192167fbeac6f53ff97a656df?pid=1.7&rurl=https%3a%2f%2fblog.paperspace.com%2fcontent%2fimages%2f2020%2f01%2fIntro-HELLO-FUTURE-1920x1080_v2.gif&ehk=kieZs1J9%2fABhjl0E3tgIC7uUOl6Zy1SXmqugrJMjbTU%3d) ;
+    font-family: 'secular one';  
+      
+}
+   
+
+#pic {
+    padding-top: 25%;
+    size: 50%;
+}
+h1 {
+    font-weight: bolder;
+    text-decoration: solid;
+    font-size: 30px;
+    color: whitesmoke;
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-left: 3%;
+    
+    border-radius: 100%;
+}
+span {
+    background-image: url();
+    color: navajowhite;
+    font-weight: bolder;
+    text-decoration: solid;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-size: 70px;
+    border-radius: 95%;
+    padding-top: 8%;
+   
+}
