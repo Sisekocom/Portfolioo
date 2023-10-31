@@ -33,3 +33,54 @@ span {
     padding-top: 8%;
    
 }
+li{
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+#About{
+
+    font-weight: bolder;
+    text-decoration: solid;
+    font-size: 30px;
+    color: whitesmoke;
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-left: 3%;
+    text-decoration: underline;
+    border-radius: 100%;
+
+
+}
+p{
+    color: antiquewhite;
+    padding: 20%;
+}
+
+
+#para{
+
+font-weight: bolder;
+font-size: 35px;
+color: antiquewhite;
+padding-top: 15%;
+
+}
+
+
+h4{
+    color: antiquewhite;
+    padding: 1%;
+    text-decoration: underline;
+}
+h3{
+    color: azure;
+    padding: 1%;
+}
+
+#about{
+    background-image: url();
+    object-fit: cover;
+  
+
+}
