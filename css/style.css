@@ -1,11 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(https://www.bing.com/th/id/OGC.7ad0c9b192167fbeac6f53ff97a656df?pid=1.7&rurl=https%3a%2f%2fblog.paperspace.com%2fcontent%2fimages%2f2020%2f01%2fIntro-HELLO-FUTURE-1920x1080_v2.gif&ehk=kieZs1J9%2fABhjl0E3tgIC7uUOl6Zy1SXmqugrJMjbTU%3d) ;
-    font-family: 'secular one';  
-      
-}
+    font-family: 'secular one';
+  
+    
+    
+    
+    
    
-
+}
 #pic {
     padding-top: 25%;
     size: 50%;
@@ -33,25 +36,7 @@ span {
     padding-top: 8%;
    
 }
-li{
-    font-weight: bolder;
-    font-size: larger;
-    
-}
-#About{
-
-    font-weight: bolder;
-    text-decoration: solid;
-    font-size: 30px;
-    color: whitesmoke;
-    font-size: xx-large;
-    text-transform: uppercase;
-    margin-left: 3%;
-    text-decoration: underline;
-    border-radius: 100%;
-
-
-}
+/*aboutsection/*/
 p{
     color: antiquewhite;
     padding: 20%;
@@ -83,4 +68,99 @@ h3{
     object-fit: cover;
   
 
+}
+
+
+#Education{
+
+   
+    height: 100vh;
+    padding-top: 3%;
+}
+h6{
+    padding: 2%;
+    color: white;
+    font-weight: bolder;
+    text-decoration: solid;
+    font-size: 30px;
+    font-size: large;
+    text-transform: uppercase;
+    margin-left: 3%;
+}
+.form-text{
+    color: black;
+    margin-left: 1%;
+}
+.form-label{
+    color: black;
+    margin-left: 1%;
+}
+.form-check-label{
+    color: black;
+    margin-left: 1%;
+}
+h2{
+    font-weight: bolder;
+    text-decoration: solid;
+    font-size: 30px;
+    color: black;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-decoration: underline;
+    border-radius: 100%;
+    margin-left: 1%;
+
+}
+
+.btn{
+    margin-left: 0%;
+    
+   
+
+}
+#form{
+    background-color: black;
+    border-radius: 2%;
+   
+}
+#exampleInputPassword1{
+    height: 20vh;
+
+}
+
+#pic{
+    padding-top: 8%;
+
+}
+#About{
+        color: aliceblue;
+        font-weight: bolder;
+        text-decoration: underline;
+     
+}
+#contact{
+    background-color: antiquewhite;
+
+}
+li{
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+h4{
+    color: antiquewhite;
+    padding: 1%;
+    text-decoration: underline;
+}
+h3{
+    color: azure;
+    padding: 1%;
+}
+P{
+    /* background-color: aqua; */
+}
+#about{
+    background-image: url(https://i.postimg.cc/MTGCdQwM/photo-1524169358666-79f22534bc6e.jpg);
+    height: 100vh;
+    width: 300vh;
 }
