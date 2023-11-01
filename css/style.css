@@ -169,3 +169,21 @@ P{
     margin-bottom: 30%;
    
 }
+#TESTIMONIALS{
+    margin-bottom: 500px ;
+    padding: 5%
+}
+img{
+    border-radius: 50%;
+}
+p{
+    padding: 10%;
+}
+#g{
+    padding: 2%;
+}
+#T{
+  border-radius: 15%;
+  padding: 0%;
+
+}
