@@ -1,19 +1,26 @@
-body {
+section {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(https://www.bing.com/th/id/OGC.7ad0c9b192167fbeac6f53ff97a656df?pid=1.7&rurl=https%3a%2f%2fblog.paperspace.com%2fcontent%2fimages%2f2020%2f01%2fIntro-HELLO-FUTURE-1920x1080_v2.gif&ehk=kieZs1J9%2fABhjl0E3tgIC7uUOl6Zy1SXmqugrJMjbTU%3d) ;
     font-family: 'secular one';
-  
-    
-    
-    
-    
-   
 }
+  
+    body{   
+        background-color: black;
+
+    }
+
+ .heading{
+
+padding: 50px;
+ }   
+   
+
 #pic {
     padding-top: 25%;
     size: 50%;
 }
 h1 {
+   
     font-weight: bolder;
     text-decoration: solid;
     font-size: 30px;
@@ -48,7 +55,7 @@ p{
 font-weight: bolder;
 font-size: 35px;
 color: antiquewhite;
-padding-top: 15%;
+
 
 }
 
@@ -73,8 +80,6 @@ h3{
 
 #Education{
 
-   
-    height: 100vh;
     padding-top: 4%;
 }
 h6{
@@ -87,29 +92,13 @@ h6{
     text-transform: uppercase;
     margin-left: 3%;
 }
-.form-text{
-    color: black;
-    margin-left: 1%;
-}
-.form-label{
-    color: black;
-    margin-left: 1%;
-}
-.form-check-label{
-    color: black;
-    margin-left: 1%;
-}
-h2{
-    font-weight: bolder;
-    text-decoration: solid;
-    font-size: 30px;
-    color: black;
-    font-size: xx-large;
-    text-transform: uppercase;
-    text-decoration: underline;
-    border-radius: 100%;
-    margin-left: 1%;
 
+
+h2{
+    
+    padding: 50px;
+   
+  
 }
 
 .btn{
@@ -123,10 +112,7 @@ h2{
     border-radius: 2%;
    
 }
-#exampleInputPassword1{
-    height: 20vh;
 
-}
 
 #pic{
     padding-top: 8%;
@@ -135,7 +121,8 @@ h2{
 #About{
         color: aliceblue;
         font-weight: bolder;
-        text-decoration: underline;
+        
+      
      
 }
 #contact{
@@ -161,16 +148,14 @@ P{
 }
 #about{
     background-image: url(https://i.postimg.cc/MTGCdQwM/photo-1524169358666-79f22534bc6e.jpg);
-    height: 100vh;
-    width: 300vh;
+  
 }
 #Skills{
+    padding: 10%;
     background-color: gray;
-    margin-bottom: 30%;
    
 }
 #TESTIMONIALS{
-    margin-bottom: 500px ;
     padding: 5%
 }
 img{

@@ -20,42 +20,42 @@
 
 <body>
 
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" >
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent ">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#About">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Skills">SKILLS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">PROJECTS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#TESTIMONIALS">TESTIMONIALS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#form">CONTACT</a>
-                </li>
+          </button>
+          <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="" href="./index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Education">EDUCATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#SKILLS">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#TESTIMONIALS">TESTIMONIALS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Projects">PROJECTS</a>
+              </li>
             </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
 
     <main class="container-fluid">
-
-        <div class="container">
+        <section class="container" id="pic">
             <div class="row mb-5 pb-5">
                 <div class="col mt-5 pt-5 bio">
 
@@ -65,24 +65,27 @@
                 </div>
 
                 <div class="col">
-                    <section class="container" id="pic">
-                        <div class="row my-7 d-block d-sm-flex">
-                            <div class="col">
-                                <a class="pic" href="#"> <img
-                                        src="https://i.postimg.cc/6Qvw1Mjk/178387048-1863360767156238-70019032027000302-n-removebg-preview.png"
-                                        loading="lazy" class="img-fluid" alt="#" id="pic"></a>
-                            </div>
+
+                    <div class="row my-7 d-block d-sm-flex">
+                        <div class="col">
+                            <a class="pic" href="#"> <img
+                                    src="https://i.postimg.cc/6Qvw1Mjk/178387048-1863360767156238-70019032027000302-n-removebg-preview.png"
+                                    loading="lazy" class="img-fluid" alt="#" id="pic"></a>
                         </div>
-                    </section>
+                    </div>
+
                 </div>
             </div>
+        </section>
+        </div>
+        </div>
         </div>
 
         </header>
-        <section class="container">
-            <div class="row about">
+        <section class="container" id="About">
+            <div class="row about mb-5">
                 <span>
-                    <h2 id="About">
+                    <h2>
                         ABOUT
                     </h2>
                 </span>
@@ -100,13 +103,16 @@
 
         </section>
 
-        </section>
 
-        <section id="Education" class="container-fluid ">
+
+        <section id="Education" class="container ">
+            <div>
+                <h1 class="heading">Education</h1>
+            </div>
             <div class="row">
                 <div class="col">
                     <ul class="list-group">
-                        <h1>Education</h1>
+
                         <li class="list-group-item bg-warning " aria-current="true">CODETELLIGENCE</li>
                         <li class="list-group-item">Software Development</li>
                         <li class="list-group-item">2023</li>
@@ -120,19 +126,25 @@
 
 
                 </div>
+
+            </div>
+            <div class="row mt-5 pt-5">
                 <div class="col">
+                    <div class="row">
+                        <h2 id="contact">CONTACT ME</h2>
+
+                    </div>
+
                     <form action="https://formspree.io/f/mwkdzevr" method="POST" class="container" id="form">
                         <div class="mb-3">
-                            <h id="contact">Contact Me</h2>
-                                <label for="exampleInputEmail1" class="form-label">First Name </label>
-                                <input type="Fname" class="form-control" id="Inputfirstname" aria-describedby="Fname">
-                                <label for="exampleInputEmail1" class="form-label">Last Name</label>
-                                <input type="lname" class="form-control" id="Inputlastname"
-                                    aria-describedby="emailHelp">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
-                                </div>
+                            <label for="exampleInputEmail1" class="form-label">First Name </label>
+                            <input type="Fname" class="form-control" id="Inputfirstname" aria-describedby="Fname">
+                            <label for="exampleInputEmail1" class="form-label">Last Name</label>
+                            <input type="lname" class="form-control" id="Inputlastname" aria-describedby="emailHelp">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                            </div>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputmessage" class="form-label">Comments / Questions</label>
@@ -144,10 +156,10 @@
                 </div>
             </div>
         </section>
-        </section>
 
-        <section id="Skills">
-            <h1 class="container">SKILLS</h1>
+
+        <section class="container mt-5" id="Skills">
+            <h1>SKILLS</h1>
             <h4>Html&CSS</h4>
             <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
                 aria-valuemin="0" aria-valuemax="100">
@@ -173,93 +185,85 @@
             </div>
 
         </section>
-        <section id="Projects">
-            <h2></h2>
-        </section>
-        <section id="Testimonials">
-            <h2></h2>
-        </section>
-        <section id="contact">
-            <h2></h2>
-        </section>
 
 
 
-        <section class="container" id="TESTIMONIALS">
-            <div class="row my-7 d-block d-sm-flex">
+        <section class="container mt-5" id="TESTIMONIALS">
+            <div class="row my-7  d-block d-sm-flex">
                 <h1 class="testt">TESTIMONIALS</h1>
                 <div class="col">
                     <img src="" loading="" class="img-fluid" alt="">
                     <p>name</p>
-                    <img src="https://th.bing.com/th?id=OIP.il43_ZUFWHf-8zBYZxlqUAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="">
+                    <img src="https://th.bing.com/th?id=OIP.il43_ZUFWHf-8zBYZxlqUAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                        alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste hic ab cupiditate, voluptatem,
                         optio, asperiores incidunt fuga esse in laborum aliquam vero unde nulla! Minima pariatur atque
                         quae suscipit incidunt?</p>
                 </div>
-            
+
                 <div class="col">
                     <img src="" loading="lazy" class="img-fluid" alt="">
                     <p>name</p>
-                    <img src="https://th.bing.com/th?id=OIP.il43_ZUFWHf-8zBYZxlqUAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="">
+                    <img src="https://th.bing.com/th?id=OIP.il43_ZUFWHf-8zBYZxlqUAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                        alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste hic ab cupiditate, voluptatem,
                         optio, asperiores incidunt fuga esse in laborum aliquam vero unde nulla! Minima pariatur atque
                         quae suscipit incidunt?</p>
                 </div>
-            
+
                 <div class="col" id="g">
                     <p>Name</p>
-                    <img src="https://th.bing.com/th?id=OIP.il43_ZUFWHf-8zBYZxlqUAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" loading="lazy" class="img-fluid" alt="">
+                    <img src="https://th.bing.com/th?id=OIP.il43_ZUFWHf-8zBYZxlqUAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                        loading="lazy" class="img-fluid" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste hic ab cupiditate, voluptatem,
                         optio, asperiores incidunt fuga esse in laborum aliquam vero unde nulla! Minima pariatur atque
                         quae suscipit incidunt?</p>
 
                 </div>
-              
+
+
+            </div>
+            </div>
+        </section>
+        <section class="container" id="Projects">
+            <div class="row my-7  mt-5  d-block d-sm-flex">
+                <h1>PROJECTS</h1>
+                <div class="col">
+                    <p>KEYBOARD</p>
+                    <img src="https://i.postimg.cc/Y0BqB2VQ/key.png" height="200px" width="200px" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste hic ab cupiditate, voluptatem,
+                        optio, asperiores incidunt fuga esse in laborum aliquam vero unde nulla! Minima pariatur atque
+                        quae suscipit incidunt?</p>
+                </div>
+
+                <div class="col">
+                    <img src="" loading="lazy" class="img-fluid" alt="">
+                    <p>CALCULATOR</p>
+                    <img src="https://i.postimg.cc/cLGXn7SW/cal.png" height="200px" width="200px" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste hic ab cupiditate, voluptatem,
+                        optio, asperiores incidunt fuga esse in laborum aliquam vero unde nulla! Minima pariatur atque
+                        quae suscipit incidunt?</p>
+                </div>
+
+                <div class="col" id="g">
+                    <p>MOBICARE</p>
+                    <img src="https://i.postimg.cc/R0zsVH7b/mobi.png" height="200px" width="200px" loading="lazy"
+                        class="img-fluid" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste hic ab cupiditate, voluptatem,
+                        optio, asperiores incidunt fuga esse in laborum aliquam vero unde nulla! Minima pariatur atque
+                        quae suscipit incidunt?</p>
 
                 </div>
             </div>
         </section>
-        <section class="container" id="Projects">
-            <div class="row my-7 d-block d-sm-flex">
-                <h1 >PROJECTS</h1>
-                <div class="col">
-                    <img src="" loading="lazy" class="img-fluid" alt="">
-                    <p>KEYBOARD</p>
-                    <img src="https://i.postimg.cc/Y0BqB2VQ/key.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste hic ab cupiditate, voluptatem,
-                        optio, asperiores incidunt fuga esse in laborum aliquam vero unde nulla! Minima pariatur atque
-                        quae suscipit incidunt?</p>
-                </div>
-            
-                <div class="col">
-                    <img src="" loading="lazy" class="img-fluid" alt="">
-                    <p>CALCULATOR</p>
-                    <img src="https://i.postimg.cc/cLGXn7SW/cal.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste hic ab cupiditate, voluptatem,
-                        optio, asperiores incidunt fuga esse in laborum aliquam vero unde nulla! Minima pariatur atque
-                        quae suscipit incidunt?</p>
-                </div>
-            
-                <div class="col" id="g">
-                    <p>MOBICARE</p>
-                    <img src="https://i.postimg.cc/zfnqSY3B/mobi.png" loading="lazy" class="img-fluid" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste hic ab cupiditate, voluptatem,
-                        optio, asperiores incidunt fuga esse in laborum aliquam vero unde nulla! Minima pariatur atque
-                        quae suscipit incidunt?</p>
 
-                </div>
-        </section>
-        <section>
-            <h2></h2>
-        </section>
-        <section>
-            <h2></h2>
-        </section>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
     </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
