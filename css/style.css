@@ -164,11 +164,30 @@ img{
 p{
     padding: 10%;
 }
-#g{
-    padding: 2%;
-}
+
 #T{
   border-radius: 15%;
   padding: 0%;
+
+}
+#mzwa{
+    margin: 12%;
+}
+#sima{
+    margin-top:  10%;
+}
+#yeke{
+    margin-top: -0%;
+}
+.btn{
+    margin: 5%;
+
+}
+#cal{
+    margin-bottom: 2%;
+
+}
+#sivu{
+    margin: 5%;
 
 }
