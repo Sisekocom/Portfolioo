@@ -101,12 +101,7 @@ h2{
   
 }
 
-.btn{
-    margin-left: 0%;
-    
-   
 
-}
 #form{
     background-color: black;
     border-radius: 2%;
@@ -180,7 +175,7 @@ p{
     margin-top: -0%;
 }
 .btn{
-    margin: 5%;
+    text-align: end;
 
 }
 #cal{
@@ -190,4 +185,25 @@ p{
 #sivu{
     margin: 5%;
 
+}
+footer{
+    background-color: antiquewhite;
+    padding: 10%;
+}
+.form-label{
+    color: aliceblue;
+
+}
+#exampleInputmessage{
+   
+   padding: 5%;
+}
+a{
+    margin: 5%;
+}
+#buttonn{
+    margin: 3%;
+}
+#align{
+    margin-bottom:  2%;
 }
