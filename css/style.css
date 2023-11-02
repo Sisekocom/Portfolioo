@@ -246,25 +246,26 @@ img{
     background-color: grey;
 }
 #card-text{
-    color: black;
+    color: blue;;
     text-decoration: underline;
-}
-#card-title{
-    color: black;
+
   
 }
 #p{
-    color: blue;
+    color: white;
     margin-left: -10%;
     font-weight: bolder;
 }
 #html{
-    background-image: url(https://th.bing.com/th/id/R.ad6518ca1c2b207117575d3796eff106?rik=%2fGtw%2fQzwV5436w&pid=ImgRaw&r=0);
+    background-image: url(https://th.bing.com/th/id/R.523048f452c86687d4c0f7ec93719ddb?rik=LNZnwcaHNd6l3A&pid=ImgRaw&r=0);
  
 }
 #git{
-    background-image: url(https://media2.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif);
+    background-image: url(https://th.bing.com/th/id/R.523048f452c86687d4c0f7ec93719ddb?rik=LNZnwcaHNd6l3A&pid=ImgRaw&r=0);
 }
 #bootstrap{
-    background-image: url(https://th.bing.com/th/id/R.f8a4a270a73fc8e61c563a80157bf98c?rik=yNxwfHmSTpj7eg&pid=ImgRaw&r=0);
+    background-image: url(https://th.bing.com/th/id/R.523048f452c86687d4c0f7ec93719ddb?rik=LNZnwcaHNd6l3A&pid=ImgRaw&r=0);
+}
+.card-body{
+    color: red;
 }
