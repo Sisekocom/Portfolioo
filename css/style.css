@@ -18,7 +18,7 @@ body {
 
 #pic {
     padding-top: 25%;
-    size: 50%;
+    
 }
 
 h1 {
@@ -41,7 +41,7 @@ h1 {
     text-decoration: solid;
     font-size: 30px;
     text-transform: capitalize;
-    font-size: 70px;
+    font-size: 50px;
     border-radius: 95%;
     padding-top: 8%;
 
