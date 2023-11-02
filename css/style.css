@@ -46,7 +46,6 @@ span {
 /*aboutsection/*/
 p{
     color: antiquewhite;
-    padding: 20%;
 }
 
 
@@ -169,26 +168,24 @@ p{
     margin: 12%;
 }
 #sima{
-    margin-top:  10%;
+    margin-top:  13%;
 }
 #yeke{
-    margin-top: -0%;
+    margin-top: 0%;
 }
-.btn{
-    text-align: end;
 
-}
+
 #cal{
     margin-bottom: 2%;
 
 }
 #sivu{
-    margin: 5%;
+    margin-top: 19%;
 
 }
 footer{
     background-color: antiquewhite;
-    padding: 10%;
+    padding: 20%;
 }
 .form-label{
     color: aliceblue;
@@ -202,8 +199,35 @@ a{
     margin: 5%;
 }
 #buttonn{
-    margin: 3%;
+    margin: 2%;
 }
+
+footer{
+    font-weight: bolder;
+    font-size: larger;
+    padding: 3%;
+    
+}
+h6{
+    color: black;
+    padding-right: 45%;
+
+}
+
+
+#o{
+    margin-top:  14%;
+    
+
+}
+
 #align{
-    margin-bottom:  2%;
+    margin-top: -5%;
 }
+#onika{
+    margin-top: 10%;
+}
+#buttoonn{
+    margin-top: -5%;
+}
+
