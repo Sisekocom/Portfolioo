@@ -1,27 +1,28 @@
 section {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(https://www.bing.com/th/id/OGC.7ad0c9b192167fbeac6f53ff97a656df?pid=1.7&rurl=https%3a%2f%2fblog.paperspace.com%2fcontent%2fimages%2f2020%2f01%2fIntro-HELLO-FUTURE-1920x1080_v2.gif&ehk=kieZs1J9%2fABhjl0E3tgIC7uUOl6Zy1SXmqugrJMjbTU%3d) ;
+    background-image: url(https://www.bing.com/th/id/OGC.7ad0c9b192167fbeac6f53ff97a656df?pid=1.7&rurl=https%3a%2f%2fblog.paperspace.com%2fcontent%2fimages%2f2020%2f01%2fIntro-HELLO-FUTURE-1920x1080_v2.gif&ehk=kieZs1J9%2fABhjl0E3tgIC7uUOl6Zy1SXmqugrJMjbTU%3d);
     font-family: 'secular one';
-    
+
 }
-  
-    body{   
-        background-color: black;
 
-    }
+body {
+    background-color: black;
 
- .heading{
+}
 
-padding: 50px;
- }   
-   
+.heading {
+
+    padding: 50px;
+}
+
 
 #pic {
     padding-top: 25%;
     size: 50%;
 }
+
 h1 {
-   
+
     font-weight: bolder;
     text-decoration: solid;
     font-size: 30px;
@@ -29,9 +30,10 @@ h1 {
     font-size: xx-large;
     text-transform: uppercase;
     margin-left: 3%;
-    
+
     border-radius: 100%;
 }
+
 span {
     background-image: url();
     color: navajowhite;
@@ -42,47 +44,50 @@ span {
     font-size: 70px;
     border-radius: 95%;
     padding-top: 8%;
-   
+
 }
+
 /*aboutsection/*/
-p{
+p {
     color: antiquewhite;
 }
 
 
-#para{
+#para {
 
-font-weight: bolder;
-font-size: 35px;
-color: antiquewhite;
+    font-weight: bolder;
+    font-size: 35px;
+    color: antiquewhite;
 
 
 }
 
 
-h4{
+h4 {
     color: antiquewhite;
     padding: 1%;
     text-decoration: underline;
 }
-h3{
+
+h3 {
     color: azure;
     padding: 1%;
 }
 
-#about{
+#about {
     background-image: url();
     object-fit: cover;
-  
+
 
 }
 
 
-#Education{
+#Education {
 
     padding-top: 4%;
 }
-h6{
+
+h6 {
     padding: 2%;
     color: white;
     font-weight: bolder;
@@ -94,178 +99,210 @@ h6{
 }
 
 
-h2{
-    
+h2 {
+
     padding: 50px;
-   
-  
+
+
 }
 
 
-#form{
+#form {
     background-color: black;
     border-radius: 2%;
-   
+
 }
 
 
-#pic{
+#pic {
     padding-top: 8%;
 
 }
-#About{
-        color: aliceblue;
-        font-weight: bolder;
-        
-      
-     
+
+#About {
+    color: aliceblue;
+    font-weight: bolder;
+
+
+
 }
-#contact{
+
+#contact {
     background-color: antiquewhite;
 
 }
-li{
+
+li {
     font-weight: bolder;
     font-size: larger;
-    
+
 }
-h4{
+
+h4 {
     color: antiquewhite;
     padding: 1%;
     text-decoration: underline;
 }
-h3{
+
+h3 {
     color: azure;
     padding: 1%;
 }
-P{
+
+P {
     /* background-color: aqua; */
 }
-#about{
+
+#about {
     background-image: url(https://i.postimg.cc/MTGCdQwM/photo-1524169358666-79f22534bc6e.jpg);
-  
+
 }
-#Skills{
+
+#Skills {
     padding: 10%;
-   
-   
-   
+
+
+
 }
-#TESTIMONIALS{
+
+#TESTIMONIALS {
     padding: 5%
 }
-img{
+
+img {
     border-radius: 50%;
 }
-p{
+
+p {
     padding: 10%;
 }
 
-#T{
-  border-radius: 15%;
-  padding: 0%;
+#T {
+    border-radius: 15%;
+    padding: 0%;
 
 }
-#mzwa{
+
+#mzwa {
     margin: 12%;
     margin-left: 0%;
 
 }
-#sima{
-    margin-top:  13%;
+
+#sima {
+    margin-top: 13%;
 }
-#yeke{
+
+#yeke {
     margin-top: 0%;
 }
 
 
-#cal{
+#cal {
     margin-bottom: 2%;
 
 }
-#sivu{
+
+#sivu {
     margin-top: 19%;
 
 }
-footer{
+
+footer {
     background-color: antiquewhite;
     padding: 20%;
 }
-.form-label{
+
+.form-label {
     color: aliceblue;
 
 }
-#exampleInputmessage{
-   
-   padding: 5%;
+
+#exampleInputmessage {
+
+    padding: 5%;
 }
-a{
+
+a {
     margin: 5%;
 }
-#buttonn{
+
+#buttonn {
     margin: 2%;
 }
 
-footer{
+footer {
     font-weight: bolder;
     font-size: larger;
     padding: 3%;
-    
+
 }
-h6{
+
+h6 {
     color: black;
     padding-right: 45%;
 
 }
 
 
-#o{
-    margin-top:  14%;
-    
+#o {
+    margin-top: 14%;
+
 
 }
 
-#align{
+#align {
     margin-top: -5%;
 }
-#onika{
+
+#onika {
     margin-top: 10%;
 }
-#buttoonn{
+
+#buttoonn {
     margin-top: -5%;
 }
-img{
+
+img {
     margin-left: 8%;
 }
 
-.form-text{
+.form-text {
     color: aliceblue;
 
 }
-#card{
+
+#card {
     background-color: grey;
 }
-#card-text{
-    color: blue;;
+
+#card-text {
+    color: blue;
+    ;
     text-decoration: underline;
 
-  
+
 }
-#p{
+
+#p {
     color: white;
     margin-left: -10%;
     font-weight: bolder;
 }
-#html{
+
+#html {
     background-image: url(https://th.bing.com/th/id/R.523048f452c86687d4c0f7ec93719ddb?rik=LNZnwcaHNd6l3A&pid=ImgRaw&r=0);
- 
+
 }
-#git{
+
+#git {
     background-image: url(https://th.bing.com/th/id/R.523048f452c86687d4c0f7ec93719ddb?rik=LNZnwcaHNd6l3A&pid=ImgRaw&r=0);
 }
-#bootstrap{
+
+#bootstrap {
     background-image: url(https://th.bing.com/th/id/R.523048f452c86687d4c0f7ec93719ddb?rik=LNZnwcaHNd6l3A&pid=ImgRaw&r=0);
 }
-.card-body{
+
+.card-body {
     color: red;
 }
