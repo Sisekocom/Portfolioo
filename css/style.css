@@ -228,12 +228,11 @@ footer {
     padding: 5%;
 }
 
-a {
-    margin: 5%;
-}
+
 
 #buttonn {
     margin: 2%;
+    margin-left: 10%;
 }
 
 footer {
@@ -325,6 +324,12 @@ h5{
  
    
 }
+#move{
+    margin-left: 1%;
+}
+#cal{
+    justify-content: center;
+}
 /* Your general CSS styles that apply to all screen sizes */
 
 /* Media query for screens with a maximum width of 768px */
@@ -348,3 +353,4 @@ h5{
 }
 
 /* Add more media querie
+#cal{
