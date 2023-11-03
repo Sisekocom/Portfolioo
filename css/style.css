@@ -14,12 +14,12 @@ body {
 }
 .heading {
 
-    padding: 50px;
+  padding: 50px; 
 }
 
 
 #pic {
-    padding-top: 25%;
+  padding-top: 25%;
     
 }
 
@@ -325,4 +325,26 @@ h5{
  
    
 }
+/* Your general CSS styles that apply to all screen sizes */
 
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    /* Add your CSS styles for screens with a maximum width of 768px here */
+    body {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+    }
+
+    /* You can modify other styles as needed for smaller screens */
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+    /* Add your CSS styles for screens with a maximum width of 480px here */
+    body {
+        font-size: 14px; /* Adjust the font size for even smaller screens */
+    }
+
+    /* You can modify other styles as needed for smaller screens */
+}
+
+/* Add more media querie
